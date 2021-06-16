@@ -28,3 +28,4 @@ func rootHandler(response http.ResponseWriter, request *http.Request) {
         fmt.Fprintf(response, "Error! unknown lang option -> %s\n", *lang)
   }
 }
+
